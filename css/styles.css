@@ -40,7 +40,7 @@ button {
 }
 
 a {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .title,
@@ -53,7 +53,8 @@ a {
   overflow: hidden;
   border-radius: 1.2em;
   max-width: min(450px, 90%);
-  min-height: 630px;
+  height: auto;
+  /* min-height: 630px; */
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
@@ -98,6 +99,7 @@ a {
 .card__link {
   display: inline-block;
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
   text-decoration-line: none;
   color: inherit;
 }
