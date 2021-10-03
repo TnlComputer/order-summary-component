@@ -52,14 +52,15 @@ a {
 .card {
   overflow: hidden;
   border-radius: 1.2em;
-  max-width: min(400px, 90%);
+  max-width: min(450px, 90%);
+  min-height: 630px;
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
 }
 
 .card__body {
-  padding: 0 2em 1em;
+  padding: 0 3em 1.5em;
 }
 
 .plan {
@@ -89,13 +90,14 @@ a {
 .button {
   border-radius: .5em;
   border-style: none;
+  box-shadow: 1px 20px 5px 0px var(--very-pale-blue);
   width: 100%;
   color: #fff;
 }
 
 .card__link {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 1.5em;
   text-decoration-line: none;
   color: inherit;
 }
@@ -103,9 +105,10 @@ a {
 .button--purple {
   padding-top: 1em;
   padding-bottom: 1em;
-  margin-top: 1em;
+  margin-top: 2em;
   font-weight: 700;
   background-color: var(--bright-blue);
+
 }
 
 @media screen and (min-width:1440px) {
