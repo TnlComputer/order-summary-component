@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   display: flex;
   align-items: center;
   min-height: 100vh;
@@ -112,6 +112,8 @@ a {
   background-color: var(--bright-blue);
 
 }
+
+/*  pantalla 1440 px */
 
 @media screen and (min-width:1440px) {
   :root {
